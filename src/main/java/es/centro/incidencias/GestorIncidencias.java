@@ -1,7 +1,14 @@
 package es.centro.incidencias;
 
 import java.util.List;
-
+/**
+ * Representa un gestor de incidencias.
+ *
+ * @author Profesor
+ * @version 1.0
+ * @since 1.0
+ *
+ */
 public final class GestorIncidencias {
 
     private final List<Incidencia> incidencias;

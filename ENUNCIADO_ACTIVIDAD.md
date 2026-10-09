@@ -1,6 +1,3 @@
-
-
-
 # Actividad — Documentar un proyecto Java
 
 Se proporciona una aplicación Java de consola para consultar y gestionar un pequeño listado de incidencias de soporte de un centro educativo.
