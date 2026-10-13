@@ -13,7 +13,7 @@ public class IncidenciaNoEncontradaException extends Exception {
      * Es una excepción lanzada cuando no hay incidencias con el identificador propocionado.
      * Hereda y modifica el comportamiento de las excepciones de la clase Exception.
      *
-     * @param id String identificativo único de la incidencia en formato 'INC-000'
+     * @param id (String) identificativo único de la incidencia en formato 'INC-000'
      *
      */
     public IncidenciaNoEncontradaException(String id) {

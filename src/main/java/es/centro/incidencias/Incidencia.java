@@ -19,10 +19,10 @@ public final class Incidencia {
     /**
      * Crea una incidencia.
      *
-     * @param id String identificativo único con formato 'INC-000'.
-     * @param titulo String descriptivo de la incidencia referida.
-     * @param prioridad String indicativo del nivel de prioridad de la incicendia. Puede tomar los valores: alto, medio o bajo.
-     * @param abierta booleano que toma el valor true cuando la incidencia sigue abierta, o false cuando se ha cerrado.
+     * @param id (String) identificativo único con formato 'INC-000'.
+     * @param titulo (String) título descriptivo de la incidencia referida.
+     * @param prioridad (String) indicativo del nivel de prioridad de la incicendia. Puede tomar los valores: alto, medio o bajo.
+     * @param abierta (booleano) toma el valor true cuando la incidencia sigue abierta, o false cuando se ha cerrado.
      *
      */
     public Incidencia(String id, String titulo, String prioridad, boolean abierta) {
@@ -71,9 +71,9 @@ public final class Incidencia {
     /**
      * Devuelve el cierto o falso si el identificador o el título de una incidencia coinciden o no con un texto proporcionado.
      *
-     * @param texto String que se proporciona como texto de búsqueda en el id o en el título de la incidencia
+     * @param texto (String) texto que se proporciona para su búsqueda en el id o en el título de la incidencia
      *
-     * @return boolean según haya o no coincidencia entre el texto proporcionado y el id o el título de la incidencia.
+     * @return boolean devuelve una opción según haya o no coincidencia entre el texto proporcionado y el id o el título de la incidencia.
      */
     public boolean coincideCon(String texto) {
         String criterio = texto.toLowerCase(Locale.ROOT);
