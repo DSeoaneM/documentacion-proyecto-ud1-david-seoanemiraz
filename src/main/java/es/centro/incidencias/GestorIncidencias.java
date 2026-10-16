@@ -78,8 +78,10 @@ public final class GestorIncidencias {
     }
 
     /**
-     * Método deprecated a partir de la versión 1.0.0. Se recomienda sustituirlo por:
+     * Metodo deprecated a partir de la versión 1.0.0. Se recomienda sustituirlo por:
      * {@link GestorIncidencias#buscarPorId(String)}
+     *
+     * Este metodo devuelve un resultado null si no se encuentra la incidencia. El nuevo metodo gestiona correctamente esta excepción.
      *
      * Busca una incidencia por su id
      *
